@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MApp Designer</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+      function setPlatform(platform, event) {
+        document.getElementsByClassName("active")[0].classList.remove('active');
+        event.target.classList.add('active');
+        document.getElementById("appContainer").removeAttribute('class');
+        document.getElementById("appContainer").classList.add(platform);
+      }
+      function dropDownClick(value, event){
+        
+      }
+    </script>
+  </head>
+
+  <body class="propertyChange">
+    <my-app>
+      <div class="spinner-wrap">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+    </my-app>
+  </body>
+</html>

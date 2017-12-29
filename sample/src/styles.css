@@ -1,0 +1,127 @@
+@import "../node_modules/@syncfusion/ej2-ng-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-ng-calendars/styles/material.css";
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+body{
+  width:100%;
+  overflow: hidden;
+}
+.sidebarSection{
+  border-right: 1px solid #dddada;
+    overflow: auto;
+    height:560px;
+}
+.alignText{
+  text-align: center;
+}
+.header{
+  height:48px;
+  background-color: #3f51b5;
+}
+.header,.content{
+  border-bottom: 1px solid #dddada;
+}
+.e-home icon{
+content: "\e7d9"
+}
+
+#appContainer {
+  width: 467px;
+  height: 870px;
+  background-image: url('app/img/devices-sprite.png');
+  background-size: 470px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#appContent {
+  background: #fff;
+  width: 350px;
+  height: 619px;
+  top: 155px;
+  left: 61px;
+  position: absolute;
+}
+.sidebarSection .table>tbody>tr>td{
+  border:none;
+}
+
+.e-btn-icon::before {
+  content: '\e90d';
+}
+.align{
+  width: 100%;
+    height: 50px;
+    display: block;
+    position: relative;
+    text-align: center;
+}
+.align + span{
+  display: block;
+    bottom: -17px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 17px;
+}
+
+@font-face {
+  font-family: 'sbicons';
+  src: url('fonts/icons.ttf?gcjn6a') format('truetype'), url('fonts/icons.woff?gcjn6a') format('woff'), url('fonts/icons.svg?gcjn6a#sbicons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+
+  .sb-icons {
+    font-family: 'sbicons';
+    color: #3f51b5;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    padding-right: 15px;
+    font-size: 40px;
+  }
+
+  .sb-icon-button::before {
+    content: '\e904';
+  }
+
+  .sb-icon-textbox:before {
+    content: '\e926';
+  }
+
+  .sb-icon-calendar:before {
+    content: '\e905';
+  }
+  .sb-icon-datepicker:before {
+    content: '\e90d';
+  }
+  .sb-icon-combobox:before {
+    content: '\e908';
+  }
+  .sb-icon-autocomplete:before {
+    content: '\e903';
+  }
+  .sb-icon-dialog:before {
+    content: '\e90e';
+  }
+  .sb-icon-tooltip:before {
+    content: '\e929';
+  }
+  .sb-icon-listview:before {
+    content: '\e917';
+  }
+  .sb-icon-tab:before {
+    content: '\e925';
+  }
+  .sb-icon-accordion:before {
+    content: '\e900';
+  }
+  .sb-icon-treeview:before {
+    content: '\e92b';
+  }
