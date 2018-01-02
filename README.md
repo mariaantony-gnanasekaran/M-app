@@ -7,4 +7,6 @@ M-App designer helps you to design a SPA (Single Page Application) in Angular pl
 3) Run 'npm install'
 4) Run 'npm start'
 
-N> For more information about this project refer documentation.
+``
+For more information about this project refer documentation.
+``
